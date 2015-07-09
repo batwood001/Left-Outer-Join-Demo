@@ -3,6 +3,8 @@ INSERT INTO users (first_name, last_name, email)
 		('Brian','Atwood','brian.atwood@makersquare.com'),
 		('Glenn','Meyer','glenn.meyer@makersquare.com');
 
+-- Note the user_id's are hard-coded --
+
 INSERT INTO shipping_addresses (user_id, street_address, city)
 	VALUES
 		(1, '1803 E 18TH ST', 'Austin');
@@ -10,4 +12,6 @@ INSERT INTO shipping_addresses (user_id, street_address, city)
 INSERT INTO billing_addresses (user_id, street_address, city)
 	VALUES
 		(2, '1803 E 18TH ST', 'Austin');
+
+
 
